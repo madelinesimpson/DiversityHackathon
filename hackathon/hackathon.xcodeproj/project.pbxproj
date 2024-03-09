@@ -94,8 +94,10 @@
 		4DB977952B9CAC07000DB317 /* hackathon */ = {
 			isa = PBXGroup;
 			children = (
+				4DB977C22B9CB747000DB317 /* Controller */,
+				4DB977C12B9CB73F000DB317 /* View */,
+				4DB977C02B9CB734000DB317 /* Model */,
 				4DB977962B9CAC07000DB317 /* hackathonApp.swift */,
-				4DB977982B9CAC07000DB317 /* ContentView.swift */,
 				4DB9779A2B9CAC0B000DB317 /* Assets.xcassets */,
 				4DB9779C2B9CAC0B000DB317 /* Preview Content */,
 			);
@@ -125,6 +127,28 @@
 				4DB977B32B9CAC0C000DB317 /* hackathonUITestsLaunchTests.swift */,
 			);
 			path = hackathonUITests;
+			sourceTree = "<group>";
+		};
+		4DB977C02B9CB734000DB317 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DB977C12B9CB73F000DB317 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DB977982B9CAC07000DB317 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4DB977C22B9CB747000DB317 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
