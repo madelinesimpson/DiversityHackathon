@@ -14,6 +14,7 @@
 		4DB977A82B9CAC0C000DB317 /* hackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB977A72B9CAC0C000DB317 /* hackathonTests.swift */; };
 		4DB977B22B9CAC0C000DB317 /* hackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB977B12B9CAC0C000DB317 /* hackathonUITests.swift */; };
 		4DB977B42B9CAC0C000DB317 /* hackathonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB977B32B9CAC0C000DB317 /* hackathonUITestsLaunchTests.swift */; };
+		4DB977C42B9CB8B4000DB317 /* CASAuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB977C32B9CB8B4000DB317 /* CASAuthController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4DB977AD2B9CAC0C000DB317 /* hackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB977B12B9CAC0C000DB317 /* hackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackathonUITests.swift; sourceTree = "<group>"; };
 		4DB977B32B9CAC0C000DB317 /* hackathonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackathonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DB977C32B9CB8B4000DB317 /* CASAuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASAuthController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +149,17 @@
 		4DB977C22B9CB747000DB317 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4DB977C52B9CBAD5000DB317 /* View Controller */,
+				4DB977C32B9CB8B4000DB317 /* CASAuthController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		4DB977C52B9CBAD5000DB317 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB977C42B9CB8B4000DB317 /* CASAuthController.swift in Sources */,
 				4DB977992B9CAC07000DB317 /* ContentView.swift in Sources */,
 				4DB977972B9CAC07000DB317 /* hackathonApp.swift in Sources */,
 			);
